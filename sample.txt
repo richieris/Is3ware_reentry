@@ -1,0 +1,296 @@
+<Text style={styles.titleText}>
+            First Name:
+            <Text style={styles.infoText}>{FirstName}</Text>
+          </Text>
+          <Text style={styles.titleText}>
+            Middle Name:
+            <Text style={styles.infoText}>{MiddleName}</Text>
+          </Text>
+          <Text style={styles.titleText}>
+            Last Name:
+            <Text style={styles.infoText}>{LastName}</Text>
+          </Text>
+          <Text style={styles.titleText}>
+            SSN:
+            <Text style={styles.infoText}>{Ssn}</Text>
+          </Text>
+          <Text style={styles.titleText}>
+            Street Address 1:
+            <Text style={styles.infoText}>{street_address1}</Text>
+          </Text>
+          <Text style={styles.titleText}>
+            DOB:
+            <Text style={styles.infoText}>{dob}</Text>
+          </Text>
+          <Text style={styles.titleText}>
+            Gender:
+            <Text style={styles.infoText}>{Gender}</Text>
+          </Text>
+          <View>
+            {type == "Housing" ? (
+              <>
+                <Text style={styles.titleText}>
+                  Affiliation Type:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Affiliation Type:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Affiliation Set:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Affiliation Subset:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Rank:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Sex Offender Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Skills Category :
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Skills Type :<Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Certification Type :
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Bilingual Flag :<Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Multilingual Flag :
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Treatment Type:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Supervision Agency:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+              </>
+            ) : null}
+          </View>
+          <View>
+            {type == "Employment" ? (
+              <>
+                <Text style={styles.titleText}>
+                  Risk Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Sex Offender Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Skills Category:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Skills Type
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Certification Type:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Bilingual Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Multilingual Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Supervision Agency
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Supervision Person Name
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Disability Flag:<Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Disability Description:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Restriction Description:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relationship and Association Type
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relationship and Association Type
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relative and Associate First Name
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relative and Associate Middle Name
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relative and Associate Last Name
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+              </>
+            ) : null}
+          </View>
+          <View>
+            {type == "Driver Services" ? (
+              <>
+                <Text style={styles.titleText}>
+                  Bilingual Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Multilingual Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Disability Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Disability Description
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Restriction Description:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                \
+              </>
+            ) : null}
+          </View>
+          <View>
+            {type == "Entitlement" ? (
+              <>
+                <Text style={styles.titleText}>
+                  Treatment Type:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Mental Health Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Prescription Details:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Disability Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Disability Description:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+              </>
+            ) : null}
+          </View>
+          <View>
+            {type == "Law Enforcement" ? (
+              <>
+                <Text style={styles.titleText}>
+                  Risk Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Affiliation Type:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Affiliation Set:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Affiliation Subset:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Sex Offender Flag
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Bilingual Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Multilingual Flag
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Treatment Type
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Dosage:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Frequency:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Insurance Carrier Name:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Medicaid Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Supervision Agency:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Disability Flag:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Disability Description:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Restriction Description:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relationship and Association Type:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relative and Associate First Name:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relative and Associate Middle Name:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+                <Text style={styles.titleText}>
+                  Relative and Associate Last Name:
+                  <Text style={styles.infoText}>{housing}</Text>
+                </Text>
+              </>
+            ) : null}
+          </View>
